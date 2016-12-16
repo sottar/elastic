@@ -1,0 +1,12 @@
+/* 039 */
+.elastic_039 {
+  background-color: #f6f6f6;
+  background-image:
+    linear-gradient(45deg,  #000 25%, #000 25%, transparent 25%, transparent 100%),
+    linear-gradient(-135deg, #000 25%, #000 25%, transparent 25%, transparent 100%),
+    linear-gradient(-135deg, #f6f6f6 25%, #f6f6f6 25%, transparent 25%, transparent 100%),
+    linear-gradient(45deg, #f6f6f6 25%, #f6f6f6 25%, transparent 25%, transparent 100%),
+    linear-gradient(45deg, #000 0%, #000 6%, transparent 6%, transparent 11%, #000 11%, #000 17%, transparent 17%, transparent 22%, #000 22%, #000 28%, transparent 28%, transparent 33%, #000 33%, #000 39%, transparent 39%, transparent 44%, #000 44%, #000 50%, transparent 50%, transparent 55%, #000 55%, #000 61%, transparent 61%, transparent 66%, #000 66%, #000 72%, transparent 72%, transparent 77%, #000 77%, #000 83%, transparent 83%, transparent 88%, #000 88%, #000 94%, transparent 94%, transparent 100%);
+  background-position: 0 0, 10px 10px, 0 0, 10px 10px, 0 0;
+  background-size: 20px 20px;
+}

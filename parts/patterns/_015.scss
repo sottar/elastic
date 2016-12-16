@@ -1,0 +1,13 @@
+/* 015 */
+.elastic_015 {
+  background-color: #555;
+  background-image:
+    linear-gradient(30deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444),
+    linear-gradient(150deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444),
+    linear-gradient(30deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444),
+    linear-gradient(150deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444),
+    linear-gradient(60deg, #888 25%, transparent 25.5%, transparent 75%, #888 75%, #888),
+    linear-gradient(60deg, #888 25%, transparent 25.5%, transparent 75%, #888 75%, #888);
+  background-position: 0 0, 0 0, 25px 50px, 25px 50px, 0 0, 25px 50px;
+  background-size: 50px 100px;
+}
