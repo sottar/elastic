@@ -1,6 +1,6 @@
 # Elastic CSS
 
-*A collection of CSS backgroud image*
+*A collection of CSS background image*
 
 [View demo »](http://www.sottar.net/elastic/)
 
