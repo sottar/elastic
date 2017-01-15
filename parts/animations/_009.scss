@@ -1,0 +1,22 @@
+/* 009 */
+.elastic_ani_009 {
+  background: #fff;
+  background-size: 500% 500%;
+  opacity: .7;
+  animation: animation_009 5s ease infinite;
+}
+
+@keyframes animation_009 {
+  0% {
+    background: #37caff;
+  }
+  33% {
+    background: #ff37ca;
+  }
+  67% {
+    background: #caff37;
+  }
+  100% {
+    background: #37caff;
+  }
+}

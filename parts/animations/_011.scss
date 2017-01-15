@@ -1,0 +1,20 @@
+/* 011 */
+.elastic_ani_011 {
+  background: linear-gradient(45deg, #0000ff, #ff0000, #ffff00);
+  background-size: 500% 500%;
+  opacity: .5;
+  animation: animation_011 10s ease infinite;
+}
+
+@keyframes animation_011 {
+  0% {
+    background-position:0% 50%;
+  }
+  50% {
+    background-position:100% 50%;
+  }
+  100% {
+    background-position:0% 50%;
+  }
+
+}

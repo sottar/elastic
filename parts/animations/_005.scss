@@ -1,0 +1,18 @@
+/* 005 */
+.elastic_ani_005 {
+  background: linear-gradient(to top right, rgba(255,175,189,.7), rgba(100,216,243,.7), rgba(234,236,198,.7), rgba(245,146,176,.7), rgba(52,219,216,.7));
+  background-size: 500% 500%;
+  animation: animation_005 5s ease infinite;
+}
+
+@keyframes animation_005 {
+  0% {
+    background-position:0% 50%;
+  }
+  50% {
+    background-position:100% 50%;
+  }
+  100% {
+    background-position:0% 50%;
+  }
+}

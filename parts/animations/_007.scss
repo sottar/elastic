@@ -1,0 +1,19 @@
+/* 007 */
+.elastic_ani_007 {
+  background: linear-gradient(90deg, #ff6c37, #ffd037, #ff3766, #ff6c37);
+  background-size: 500% 500%;
+  opacity: .7;
+  animation: animation_007 5s ease infinite;
+}
+
+@keyframes animation_007 {
+  0% {
+    background-position:0% 50%;
+  }
+  50% {
+    background-position:100% 50%;
+  }
+  100% {
+    background-position:0% 50%;
+  }
+}

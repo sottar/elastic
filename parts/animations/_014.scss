@@ -1,0 +1,19 @@
+/* 014 */
+.elastic_ani_014 {
+  background-color:#3cc;
+  background-image:
+    radial-gradient(rgba(255,255,255,.1) 40%, transparent 40%),
+    radial-gradient(rgba(255,255,255,.1) 20%, transparent 20%);
+  background-position: 0 0, 40px 40px;
+  background-size:80px 80px;
+  animation: animation_014 1000s linear infinite;
+}
+
+@keyframes animation_014 {
+  0% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 50% 10000%;
+  }
+}

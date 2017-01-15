@@ -1,0 +1,19 @@
+/* 003 */
+.elastic_ani_003 {
+  background: linear-gradient(237deg, #23bf97, #2379bf, #23bf52);
+  background-size: 600% 600%;
+  animation: animation_003 5s ease infinite;
+  opacity: .8;
+}
+
+@keyframes animation_003 { 
+  0% {
+    background-position:0% 48%
+  }
+  50% {
+    background-position:100% 53%
+  }
+  100% {
+    background-position:0% 48%
+  }
+}
