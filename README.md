@@ -14,11 +14,10 @@ html
   </head>
 ```
 
-or you can also compile any of the individual classes, from the `partials` list folder with the SCSS versions.
+or you can also compile any of the individual classes, from the `parts` list folder with the SCSS versions.
 
 ## Browsers
 Some of the background-image use linear-gradient, support for which is limited in [some browsers](http://caniuse.com/#search=linear-gradient).
 
 ## License
-show [LICENSE file](https://github.com/sottar/elastic/blob/master/LICENSE)
-
+see [LICENSE file](https://github.com/sottar/elastic/blob/master/LICENSE)
