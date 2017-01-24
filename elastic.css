@@ -312,3 +312,416 @@
   background: -webkit-linear-gradient(left, rgba(204, 204, 204, 0) 44%, white 44%, white 47%, rgba(204, 204, 204, 0) 47%, rgba(204, 204, 204, 0) 50%, white 50%, white 53%, rgba(204, 204, 204, 0) 53%, rgba(204, 204, 204, 0) 100%), -webkit-linear-gradient(top, #ccc 44%, #fff 44%, #fff 47%, #ccc 47%, #ccc 50%, #fff 50%, #fff 53%, #ccc 53%, #ccc 100%);
   background: linear-gradient(left, rgba(204, 204, 204, 0) 44%, white 44%, white 47%, rgba(204, 204, 204, 0) 47%, rgba(204, 204, 204, 0) 50%, white 50%, white 53%, rgba(204, 204, 204, 0) 53%, rgba(204, 204, 204, 0) 100%), linear-gradient(top, #ccc 44%, #fff 44%, #fff 47%, #ccc 47%, #ccc 50%, #fff 50%, #fff 53%, #ccc 53%, #ccc 100%);
   background-size: 50px 50px; }
+
+/* 001 */
+.elastic_ani_001 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(top, #a6d900 0%, #ff4454 100%);
+  background: linear-gradient(to bottom, #a6d900 0%, #ff4454 100%);
+  opacity: .7;
+  -webkit-animation: animation_001 3s infinite alternate;
+          animation: animation_001 3s infinite alternate; }
+
+@-webkit-keyframes animation_001 {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg); }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg); } }
+
+@keyframes animation_001 {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg); }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg); } }
+
+/* 002 */
+.elastic_ani_002 {
+  background: -webkit-linear-gradient(45deg, #6cb8ff, #fff66c, #ffa36c);
+  background: linear-gradient(45deg, #6cb8ff, #fff66c, #ffa36c);
+  background-size: 400% 400%;
+  opacity: .8;
+  -webkit-animation: animation_002 3s ease infinite;
+          animation: animation_002 3s ease infinite; }
+
+@-webkit-keyframes animation_002 {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes animation_002 {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+/* 003 */
+.elastic_ani_003 {
+  background: -webkit-linear-gradient(213deg, #23bf97, #2379bf, #23bf52);
+  background: linear-gradient(237deg, #23bf97, #2379bf, #23bf52);
+  background-size: 600% 600%;
+  -webkit-animation: animation_003 5s ease infinite;
+          animation: animation_003 5s ease infinite;
+  opacity: .8; }
+
+@-webkit-keyframes animation_003 {
+  0% {
+    background-position: 0% 48%; }
+  50% {
+    background-position: 100% 53%; }
+  100% {
+    background-position: 0% 48%; } }
+
+@keyframes animation_003 {
+  0% {
+    background-position: 0% 48%; }
+  50% {
+    background-position: 100% 53%; }
+  100% {
+    background-position: 0% 48%; } }
+
+/* 004 */
+.elastic_ani_004 {
+  background: -webkit-radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px), -webkit-radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), -webkit-radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px), -webkit-radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+  background: radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+  background-color: #7093b7;
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  -webkit-animation: animation_004 1000s linear infinite;
+          animation: animation_004 1000s linear infinite; }
+
+@-webkit-keyframes animation_004 {
+  0% {
+    background-position: 0% 0%; }
+  100% {
+    background-position: 0% 10000%; } }
+
+@keyframes animation_004 {
+  0% {
+    background-position: 0% 0%; }
+  100% {
+    background-position: 0% 10000%; } }
+
+/* 005 */
+.elastic_ani_005 {
+  background: -webkit-linear-gradient(bottom left, rgba(255, 175, 189, 0.7), rgba(100, 216, 243, 0.7), rgba(234, 236, 198, 0.7), rgba(245, 146, 176, 0.7), rgba(52, 219, 216, 0.7));
+  background: linear-gradient(to top right, rgba(255, 175, 189, 0.7), rgba(100, 216, 243, 0.7), rgba(234, 236, 198, 0.7), rgba(245, 146, 176, 0.7), rgba(52, 219, 216, 0.7));
+  background-size: 500% 500%;
+  -webkit-animation: animation_005 5s ease infinite;
+          animation: animation_005 5s ease infinite; }
+
+@-webkit-keyframes animation_005 {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes animation_005 {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+/* 006 */
+.elastic_ani_006 {
+  background: -webkit-radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px), -webkit-radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), -webkit-radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px), -webkit-radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+  background: radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+  background-color: #000;
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  -webkit-animation: animation_006 1000s linear infinite;
+          animation: animation_006 1000s linear infinite; }
+
+@-webkit-keyframes animation_006 {
+  0% {
+    background-position: 0% 0%; }
+  100% {
+    background-position: 10000% 10000%; } }
+
+@keyframes animation_006 {
+  0% {
+    background-position: 0% 0%; }
+  100% {
+    background-position: 10000% 10000%; } }
+
+/* 007 */
+.elastic_ani_007 {
+  background: -webkit-linear-gradient(left, #ff6c37, #ffd037, #ff3766, #ff6c37);
+  background: linear-gradient(90deg, #ff6c37, #ffd037, #ff3766, #ff6c37);
+  background-size: 500% 500%;
+  opacity: .7;
+  -webkit-animation: animation_007 5s ease infinite;
+          animation: animation_007 5s ease infinite; }
+
+@-webkit-keyframes animation_007 {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes animation_007 {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+/* 008 */
+.elastic_ani_008 {
+  background: #fff;
+  background-size: 500% 500%;
+  opacity: .7;
+  -webkit-animation: animation_008 5s ease infinite;
+          animation: animation_008 5s ease infinite; }
+
+@-webkit-keyframes animation_008 {
+  0% {
+    background: #ff6c37; }
+  33% {
+    background: #37ff6c; }
+  67% {
+    background: #6c37ff; }
+  100% {
+    background: #ff6c37; } }
+
+@keyframes animation_008 {
+  0% {
+    background: #ff6c37; }
+  33% {
+    background: #37ff6c; }
+  67% {
+    background: #6c37ff; }
+  100% {
+    background: #ff6c37; } }
+
+/* 009 */
+.elastic_ani_009 {
+  background: #fff;
+  background-size: 500% 500%;
+  opacity: .7;
+  -webkit-animation: animation_009 5s ease infinite;
+          animation: animation_009 5s ease infinite; }
+
+@-webkit-keyframes animation_009 {
+  0% {
+    background: #37caff; }
+  33% {
+    background: #ff37ca; }
+  67% {
+    background: #caff37; }
+  100% {
+    background: #37caff; } }
+
+@keyframes animation_009 {
+  0% {
+    background: #37caff; }
+  33% {
+    background: #ff37ca; }
+  67% {
+    background: #caff37; }
+  100% {
+    background: #37caff; } }
+
+/* 010 */
+.elastic_ani_010 {
+  background: #fff;
+  background-size: 500% 500%;
+  opacity: .7;
+  -webkit-animation: animation_010 5s ease infinite;
+          animation: animation_010 5s ease infinite; }
+
+@-webkit-keyframes animation_010 {
+  0% {
+    background: #58ffff; }
+  33% {
+    background: #ff58ff; }
+  67% {
+    background: #ffff58; }
+  100% {
+    background: #58ffff; } }
+
+@keyframes animation_010 {
+  0% {
+    background: #58ffff; }
+  33% {
+    background: #ff58ff; }
+  67% {
+    background: #ffff58; }
+  100% {
+    background: #58ffff; } }
+
+/* 011 */
+.elastic_ani_011 {
+  background: -webkit-linear-gradient(45deg, #0000ff, #ff0000, #ffff00);
+  background: linear-gradient(45deg, #0000ff, #ff0000, #ffff00);
+  background-size: 500% 500%;
+  opacity: .5;
+  -webkit-animation: animation_011 10s ease infinite;
+          animation: animation_011 10s ease infinite; }
+
+@-webkit-keyframes animation_011 {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes animation_011 {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+/* 012 */
+.elastic_ani_012 {
+  background: #fff;
+  background-size: 500% 500%;
+  opacity: .7;
+  -webkit-animation: animation_012 5s ease infinite;
+          animation: animation_012 5s ease infinite; }
+
+@-webkit-keyframes animation_012 {
+  0% {
+    background: #9932cc; }
+  25% {
+    background: #cc32b2; }
+  50% {
+    background: #ff1d8e; }
+  75% {
+    background: #4c32cc; }
+  100% {
+    background: #9932cc; } }
+
+@keyframes animation_012 {
+  0% {
+    background: #9932cc; }
+  25% {
+    background: #cc32b2; }
+  50% {
+    background: #ff1d8e; }
+  75% {
+    background: #4c32cc; }
+  100% {
+    background: #9932cc; } }
+
+/* 013 */
+.elastic_ani_013 {
+  background: #fff;
+  background-size: 500% 500%;
+  opacity: .5;
+  -webkit-animation: animation_013 5s ease infinite;
+          animation: animation_013 5s ease infinite; }
+
+@-webkit-keyframes animation_013 {
+  0% {
+    background: #0000ff; }
+  20% {
+    background: #ff00bf; }
+  40% {
+    background: #ff004c; }
+  60% {
+    background: #bfff00; }
+  80% {
+    background: #00ff6a; }
+  100% {
+    background: #0000ff; } }
+
+@keyframes animation_013 {
+  0% {
+    background: #0000ff; }
+  20% {
+    background: #ff00bf; }
+  40% {
+    background: #ff004c; }
+  60% {
+    background: #bfff00; }
+  80% {
+    background: #00ff6a; }
+  100% {
+    background: #0000ff; } }
+
+/* 014 */
+.elastic_ani_014 {
+  background-color: #3cc;
+  background-image: -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 40%, transparent 40%), -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 20%, transparent 20%);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 40%, transparent 40%), radial-gradient(rgba(255, 255, 255, 0.1) 20%, transparent 20%);
+  background-position: 0 0, 40px 40px;
+  background-size: 80px 80px;
+  -webkit-animation: animation_014 1000s linear infinite;
+          animation: animation_014 1000s linear infinite; }
+
+@-webkit-keyframes animation_014 {
+  0% {
+    background-position: 50% 0%; }
+  100% {
+    background-position: 50% 10000%; } }
+
+@keyframes animation_014 {
+  0% {
+    background-position: 50% 0%; }
+  100% {
+    background-position: 50% 10000%; } }
+
+/* 015 */
+.elastic_ani_015 {
+  background: -webkit-radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.3) 32%, rgba(255, 255, 255, 0) 33%) 0 0, -webkit-radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.3) 13%, rgba(255, 255, 255, 0) 14%) 0 0, -webkit-radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 17%, rgba(255, 255, 255, 0.43) 19%, rgba(255, 255, 255, 0) 20%) 0 110px, -webkit-radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%) -130px -170px, -webkit-radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%) 130px 370px, -webkit-radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.2) 13%, rgba(255, 255, 255, 0) 14%) 0 0, -webkit-linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
+  background: radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.3) 32%, rgba(255, 255, 255, 0) 33%) 0 0, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.3) 13%, rgba(255, 255, 255, 0) 14%) 0 0, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 17%, rgba(255, 255, 255, 0.43) 19%, rgba(255, 255, 255, 0) 20%) 0 110px, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%) -130px -170px, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%) 130px 370px, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.2) 13%, rgba(255, 255, 255, 0) 14%) 0 0, linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
+  background-color: #840b2a;
+  background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
+  -webkit-animation: animation_015 500s linear infinite;
+          animation: animation_015 500s linear infinite; }
+
+@-webkit-keyframes animation_015 {
+  0% {
+    background-position: 0% 0%; }
+  50% {
+    background-position: 1000% 1000%; } }
+
+@keyframes animation_015 {
+  0% {
+    background-position: 0% 0%; }
+  50% {
+    background-position: 1000% 1000%; } }
+
+/* 016 */
+.elastic_ani_016 {
+  background: -webkit-radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.3) 32%, rgba(255, 255, 255, 0) 33%) 0 0, -webkit-radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.3) 13%, rgba(255, 255, 255, 0) 14%) 0 0, -webkit-radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 17%, rgba(255, 255, 255, 0.43) 19%, rgba(255, 255, 255, 0) 20%) 0 110px, -webkit-radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%) -130px -170px, -webkit-radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%) 130px 370px, -webkit-radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.2) 13%, rgba(255, 255, 255, 0) 14%) 0 0;
+  background: radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.3) 32%, rgba(255, 255, 255, 0) 33%) 0 0, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.3) 13%, rgba(255, 255, 255, 0) 14%) 0 0, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 17%, rgba(255, 255, 255, 0.43) 19%, rgba(255, 255, 255, 0) 20%) 0 110px, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%) -130px -170px, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%) 130px 370px, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.2) 13%, rgba(255, 255, 255, 0) 14%) 0 0;
+  background-color: #0a0a5e;
+  background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
+  -webkit-animation: animation_016 200s linear infinite;
+          animation: animation_016 200s linear infinite; }
+
+@-webkit-keyframes animation_016 {
+  0% {
+    background-position: 1000% 1000%; }
+  100% {
+    background-position: 1000% 0; } }
+
+@keyframes animation_016 {
+  0% {
+    background-position: 1000% 1000%; }
+  100% {
+    background-position: 1000% 0; } }
